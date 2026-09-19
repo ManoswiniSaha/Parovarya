@@ -1,4 +1,4 @@
-# Heritage Connect
+# ParoVarya
 
 file:///C:/Users/Manoswini/Documents/Codex/2026-09-12/build-x20/frontend/index.html
 
