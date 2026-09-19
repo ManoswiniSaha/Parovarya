@@ -85,7 +85,7 @@ function ContributionForm({ projectId }: { projectId: string }) {
       if (error) throw error;
     },
     onSuccess: async () => {
-      toast.success("Thank you — your contribution has been added.");
+      toast.success("Thank you — your contribution has been submitted for review and will appear once approved.");
       setForm(emptyForm);
       await queryClient.invalidateQueries({ queryKey: ["heritage_project_detail", projectId] });
     },

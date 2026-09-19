@@ -71,7 +71,7 @@ function NewProject() {
       return data.slug as string;
     },
     onSuccess: async (slug) => {
-      toast.success("Project added to the archive.");
+      toast.success("Project submitted for review — it will appear in the archive once approved.");
       await queryClient.invalidateQueries({ queryKey: ["heritage_projects"] });
       navigate({ to: "/projects/$slug", params: { slug } });
     },
