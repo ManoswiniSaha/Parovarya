@@ -25,6 +25,7 @@ export type Database = {
           heritage_project_id: string
           id: string
           source: string | null
+          status: string
           title: string
         }
         Insert: {
@@ -37,6 +38,7 @@ export type Database = {
           heritage_project_id: string
           id?: string
           source?: string | null
+          status?: string
           title: string
         }
         Update: {
@@ -49,6 +51,7 @@ export type Database = {
           heritage_project_id?: string
           id?: string
           source?: string | null
+          status?: string
           title?: string
         }
         Relationships: [
@@ -77,6 +80,7 @@ export type Database = {
           longitude: number | null
           slug: string
           state: string
+          status: string
           title: string
           updated_at: string
         }
@@ -95,6 +99,7 @@ export type Database = {
           longitude?: number | null
           slug: string
           state: string
+          status?: string
           title: string
           updated_at?: string
         }
@@ -113,6 +118,7 @@ export type Database = {
           longitude?: number | null
           slug?: string
           state?: string
+          status?: string
           title?: string
           updated_at?: string
         }
