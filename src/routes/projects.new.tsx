@@ -70,10 +70,10 @@ function NewProject() {
       if (error) throw error;
       return data.slug as string;
     },
-    onSuccess: async (slug) => {
+    onSuccess: async () => {
       toast.success("Project submitted for review — it will appear in the archive once approved.");
       await queryClient.invalidateQueries({ queryKey: ["heritage_projects"] });
-      navigate({ to: "/projects/$slug", params: { slug } });
+      navigate({ to: "/" });
     },
     onError: (error: Error) => toast.error(error.message),
   });
