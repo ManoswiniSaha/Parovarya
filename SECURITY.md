@@ -17,7 +17,7 @@ We take the security of this archive and community contributions seriously. If y
    - Go to the **Security** tab of this repository.
    - Click **Report a vulnerability** to submit a private report directly to repository maintainers.
 3. **Alternative — Email:**
-   - If you cannot use GitHub Advisories, you can send details privately to: `[your-email@example.com]`.
+   - If you cannot use GitHub Advisories, you can send details privately to: `manoswini.saha@yahoo.in`.
 
 ### What to include in your report
 
