@@ -1,6 +1,6 @@
 # ParoVarya
 
-file:///C:/Users/Manoswini/Documents/Codex/2026-09-12/build-x20/frontend/index.html
+https://lovable.dev/preview/4GedPI6esXF1RoZiTYaYUsVRD7LfVDCd
 
 # Paro Varya 🇮🇳
 
