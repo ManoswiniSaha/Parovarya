@@ -1,21 +1,34 @@
 # Security Policy
 
-## Supported Versions
+## Scope
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+**Paro Varya** is an active community heritage archive web application. We support the latest deployed version running on the main branch.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version / Branch | Supported          |
+| ---------------- | ------------------ |
+| `main`           | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+We take the security of this archive and community contributions seriously. If you discover a vulnerability or security issue:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. **Do not create a public issue.** Please do not disclose vulnerabilities through public GitHub issues, discussions, or pull requests.
+2. **Report via GitHub Security Advisory (Recommended):**
+   - Go to the **Security** tab of this repository.
+   - Click **Report a vulnerability** to submit a private report directly to repository maintainers.
+3. **Alternative — Email:**
+   - If you cannot use GitHub Advisories, you can send details privately to: `[your-email@example.com]`.
+
+### What to include in your report
+
+To help us triage and resolve the issue quickly, please provide:
+- A description of the issue and potential impact
+- Step-by-step instructions or proof-of-concept to reproduce it
+- Any relevant URLs or payload examples
+
+### Response timeline
+
+- **Initial acknowledgment:** Within 48 hours
+- **Assessment and updates:** Within 5 business days
+- **Fix deployment:** As soon as verified and tested
+
